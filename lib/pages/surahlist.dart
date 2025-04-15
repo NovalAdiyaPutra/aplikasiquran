@@ -1,19 +1,18 @@
-// File: lib/pages/SurahList.dart
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import '../Colors.dart';
-import '../models/Surah.dart';
-import '../services/QuranApi.dart';
-import '../widgets/SurahCard.dart';
+import '../colors.dart';
+import '../models/surah.dart';
+import '../services/quranapi.dart';
+import '../widgets/surahcard.dart';
 
-class SurahListPage extends StatefulWidget {
-  const SurahListPage({super.key});
+class SurahList extends StatefulWidget {
+  const SurahList({super.key});
 
   @override
-  State<SurahListPage> createState() => _SurahListPageState();
+  State<SurahList> createState() => _SurahListState();
 }
 
-class _SurahListPageState extends State<SurahListPage> {
+class _SurahListState extends State<SurahList> {
   late Future<List<Surah>> _surahList;
 
   @override

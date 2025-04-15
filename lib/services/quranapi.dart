@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../models/Surah.dart';
-import '../models/Ayah.dart';
+import '../models/surah.dart';
+import '../models/ayah.dart';
 
 class QuranApi {
   static const String baseUrl = 'https://api.alquran.cloud/v1';

@@ -1,7 +1,7 @@
 // import 'package:flutter/material.dart';
 // import 'package:google_fonts/google_fonts.dart';
-// import '../models/Ayah.dart';
-// import '../Colors.dart';
+// import '../models/ayah.dart';
+// import '../colors.dart';
 //
 // class AyahDetailPage extends StatelessWidget {
 //   final Ayah ayah;

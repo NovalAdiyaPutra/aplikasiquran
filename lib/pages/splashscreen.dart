@@ -1,9 +1,9 @@
-// File: lib/pages/SplashScreen.dart
+// File: lib/pages/splashscreen.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-import '../Colors.dart';
-import 'SurahList.dart';
+import '../colors.dart';
+import 'surahlist.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -61,7 +61,7 @@ class SplashScreen extends StatelessWidget {
                           onTap: () {
                             Navigator.of(context).push(
                               MaterialPageRoute(
-                                builder: (context) => const SurahListPage(),
+                                builder: (context) => const SurahList(),
                               ),
                             );
                           },

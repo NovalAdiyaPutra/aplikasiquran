@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-import '../Colors.dart';
-import '../models/Surah.dart';
-import '../pages/AyahList.dart';
+import '../colors.dart';
+import '../models/surah.dart';
+import '../pages/ayahlist.dart';
 
 class SurahCard extends StatelessWidget {
   final Surah surah;

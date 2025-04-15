@@ -1,8 +1,8 @@
 // File: lib/main.dart
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'Colors.dart';
-import 'pages/SplashScreen.dart';
+import 'colors.dart';
+import 'pages/splashscreen.dart';
 
 void main() {
   runApp(const QuranApp());

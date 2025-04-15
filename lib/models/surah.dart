@@ -1,4 +1,3 @@
-// File: lib/models/Surah.dart
 class Surah {
   final int number;
   final String name;
