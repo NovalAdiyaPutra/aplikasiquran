@@ -145,25 +145,25 @@ class _AyahListState extends State<AyahList> {
                         if (ayah.ruku != null)
                           AttributeBadge(
                             text: 'Ruku: ${ayah.ruku}',
-                            iconPath: 'assets/svgs/ruku.svg',
+                            iconPath: 'assets/svgs/ruku1.svg',
                             color: primary,
                           ),
                         if (ayah.manzil != null)
                           AttributeBadge(
                             text: 'Manzil: ${ayah.manzil}',
-                            iconPath: 'assets/svgs/manzil.svg',
+                            iconPath: 'assets/svgs/manzil1.svg',
                             color: primary,
                           ),
                         if (ayah.page != null)
                           AttributeBadge(
                             text: 'Page: ${ayah.page}',
-                            iconPath: 'assets/svgs/page.svg',
+                            iconPath: 'assets/svgs/page1.svg',
                             color: primary,
                           ),
                         if (ayah.sajda == true)
                           AttributeBadge(
                             text: 'Sajda',
-                            iconPath: 'assets/svgs/sajda.svg',
+                            iconPath: 'assets/svgs/sajda1.svg',
                             color: orange,
                           ),
                       ],
