@@ -27,7 +27,7 @@ class AttributeBadge extends StatelessWidget {
           SvgPicture.asset(
             iconPath,
             height: 30,
-            width: 0,
+            width: 20,
             color: Colors.black,
           ),
           const SizedBox(width: 4),
