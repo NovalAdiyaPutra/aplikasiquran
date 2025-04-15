@@ -4,7 +4,6 @@ import '../widgets/attributebadge.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../models/ayah.dart';
 import '../Colors.dart';
-// import '../pages/AyahDetail.dart';
 import '../services/quranapi.dart';
 
 class AyahList extends StatefulWidget {
@@ -126,7 +125,7 @@ class _AyahListState extends State<AyahList> {
 
                     const SizedBox(height: 12),
 
-                    // Terjemahan DI LUAR ROW
+                    // Artinya
                     Text(
                       ayah.translation,
                       style: GoogleFonts.poppins(

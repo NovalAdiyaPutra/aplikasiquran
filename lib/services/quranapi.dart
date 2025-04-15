@@ -61,6 +61,7 @@ class QuranApi {
 
         final number = arabAyah['number']; // global number
         final sajda = sajdaNumbers.contains(number);
+        // final audioUrl = await _fetchAudioUrl(number);
 
         combined.add(
           Ayah(
@@ -71,6 +72,7 @@ class QuranApi {
             manzil: arabAyah['manzil'],
             page: arabAyah['page'],
             sajda: sajda,
+            // audioUrl: audioUrl,
           ),
         );
       }
@@ -80,7 +82,6 @@ class QuranApi {
       throw Exception('Failed to load ayat or sajda data');
     }
   }
-
 
   //Ambil data ruku
   static Future<List<Map<String, dynamic>>> fetchRukuMeta(int rukuNumber) async {
@@ -180,4 +181,16 @@ class QuranApi {
       throw Exception('Failed to load sajda ayahs');
     }
   }
+
+  // Ambil Audio
+  // static Future<String> _fetchAudioUrl(int ayahNumber) async {
+  //   final response = await http.get(Uri.parse('$baseUrl/ayah/$ayahNumber/ar.alafasy'));
+  //
+  //   if (response.statusCode == 200) {
+  //     final data = json.decode(response.body);
+  //     return data['data']['audio'];
+  //   } else {
+  //     throw Exception('Failed to load audio');
+  //   }
+  // }
 }

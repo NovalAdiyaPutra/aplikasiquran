@@ -1,4 +1,3 @@
-// File: lib/colors.dart
 import 'package:flutter/material.dart';
 
 Color background = const Color(0xFF040C23);

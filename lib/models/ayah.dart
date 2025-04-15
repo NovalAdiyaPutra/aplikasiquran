@@ -16,4 +16,5 @@ class Ayah {
     this.page,
     this.sajda,
   });
+
 }
